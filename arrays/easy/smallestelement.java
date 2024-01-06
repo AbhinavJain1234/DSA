@@ -1,3 +1,5 @@
+package easy;
+
 public class smallestelement {
     static int smallestOptimized(int a[]) {
         int smallest = a[0];

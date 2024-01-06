@@ -1,3 +1,5 @@
+package easy;
+
 import java.util.ArrayList;
 
 public class intersectionofsorted {

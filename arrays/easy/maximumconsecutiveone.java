@@ -1,3 +1,5 @@
+package easy;
+
 public class maximumconsecutiveone {
     static int maximumConsecutiveOne(int a[]) {
         int count = 0;

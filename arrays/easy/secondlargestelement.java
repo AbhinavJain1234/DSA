@@ -1,3 +1,5 @@
+package easy;
+
 public class secondlargestelement {
     static int secondLargestBrute(int a[]) {
         quicksort.quickSort(a, 0, a.length - 1);

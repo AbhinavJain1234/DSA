@@ -1,3 +1,5 @@
+package easy;
+
 public class secondsmallestelement {
     static int secondSmallestBrute(int a[]) {
         quicksort.quickSort(a, 0, a.length - 1);

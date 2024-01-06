@@ -1,7 +1,7 @@
 package sorting;
 
 public class mergesort {
-    static void mergeSort(int[] a, int low, int high) {
+    public static void mergeSort(int[] a, int low, int high) {
         if (low == high)
             return;
         int mid = (low + high) / 2;

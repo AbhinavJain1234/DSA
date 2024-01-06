@@ -1,3 +1,5 @@
+package easy;
+
 public class checkSorted {
     // brute,better,bestdd
     static boolean checkIfSorted(int a[]) {

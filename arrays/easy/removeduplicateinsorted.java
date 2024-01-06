@@ -1,8 +1,11 @@
+package easy;
+
 import java.util.*;
 
 public class removeduplicateinsorted {
 
-    //for unsorted array we can create a temp array and then change og array and return index
+    // for unsorted array we can create a temp array and then change og array and
+    // return index
     // can use this method to remove in unsorted array
     static int removeDuplicateInSortedBrute(int a[]) {
         HashSet<Integer> set = new HashSet<>();

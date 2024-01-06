@@ -1,3 +1,5 @@
+package easy;
+
 public class linearsearch {
 
     static int linearSearch(int a[], int search) {
