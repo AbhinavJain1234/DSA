@@ -31,20 +31,20 @@ public class removeduplicateinsorted {
         return i;
     }
 
-    public static void main(String[] args) {
-        int a[] = { 1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 7, 8, 9, 9 };
-        int index = removeDuplicateInSortedBrute(a);
+    static void print(int a[], int index) {
         System.out.print("[" + a[0]);
         for (int i = 1; i <= index; i++) {
             System.out.print("," + a[i]);
         }
         System.out.println("]");
+    }
+
+    public static void main(String[] args) {
+        int a[] = { 1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 7, 8, 9, 9 };
+        int index = removeDuplicateInSortedBrute(a);
+        print(a, index);
         int b[] = { 1, 1, 2, 2, 3, 3, 4, 5, 5, 6, 7, 8, 9, 9 };
         index = removeDuplicateInSortedOptimized(b);
-        System.out.print("[" + b[0]);
-        for (int i = 1; i <= index; i++) {
-            System.out.print("," + b[i]);
-        }
-        System.out.print("]");
+        print(b, index);
     }
 }

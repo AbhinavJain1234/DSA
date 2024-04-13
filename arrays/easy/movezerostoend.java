@@ -50,11 +50,10 @@ public class movezerostoend {
 
     public static void main(String[] args) {
         int a[] = { 1, 2, 0, 3, 0, 4, 0, 5 };
-        moveZerosToEndOptimal(a);
+        moveZerosToEndBrute(a);
         System.out.println(Arrays.toString(a));
         int b[] = { 1, 2, 0, 3, 0, 4, 0, 5, 0, 0, 9, 8, 7, 6, 5 };
         moveZerosToEndOptimal(b);
         System.out.println(Arrays.toString(b));
     }
-
 }

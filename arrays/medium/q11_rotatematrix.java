@@ -2,7 +2,7 @@ package medium;
 
 import java.util.Arrays;
 
-public class rotatematrix {
+public class q11_rotatematrix {
     static int[][] solBrute(int[][] matrix) {
         int n = matrix.length;
         int rotated[][] = new int[n][n];

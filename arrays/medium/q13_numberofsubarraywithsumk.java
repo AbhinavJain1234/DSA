@@ -2,7 +2,7 @@ package medium;
 
 import java.util.HashMap;
 
-public class numberofsubarraywithsumk {
+public class q13_numberofsubarraywithsumk {
     public static int solOptimal(int arr[], int k) {
         int n = arr.length; // size of the given array.
         HashMap<Integer, Integer> mpp = new HashMap<>();

@@ -1,8 +1,9 @@
 package medium;
-class maxsubarraysum {
+
+class q4_maxsubarraysum {
 
     public static int solOptimal(int a[]) {
-        int sum = a[0];
+        int sum = 0;
         int maxSum = sum;
         for (int i = 0; i < a.length; i++) {
             if (sum < 0)
@@ -41,7 +42,7 @@ class maxsubarraysum {
     }
 
     public static void main(String[] args) {
-        int a[] = { -2, -3, 4, -1, -2, 1, 5, -3 };
+        int a[] = { -2, -3, 4, -1, -2, 1, 5, -3, 9, 9, 9, 9, 9, 9, -67 };
         System.out.println(solOptimal(a));
         System.out.println(solOptimalExtended(a));
     }

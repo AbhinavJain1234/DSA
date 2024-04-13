@@ -3,7 +3,7 @@ package medium;
 import java.util.HashMap;
 import java.util.Map;
 
-public class majorityelement {
+public class q3_majorityelement {
     public static int solBrute(int a[]) {
         for (int i = 0; i < a.length; i++) {
             int count = 0;

@@ -21,35 +21,35 @@ public class union {
     }
 
     // optimal- 2 pointer
-    static ArrayList<Integer> unionOptimal(int a[], int b[]) {
-        int i = 0, j = 0, n = a.length, m = b.length;
-        ArrayList<Integer> union = new ArrayList<>();
+    static ArrayList<Integer> unionOptimal(int arr1[], int arr2[]) {
+        int i = 0, j = 0, n = arr1.length, m = arr2.length;
+        ArrayList<Integer> Union = new ArrayList<>();
         while (i < n && j < m) {
-            if (a[i] <= b[j]) {
-                if (union.size() == 0 || union.getLast() != a[i]) {
-                    union.add(a[i++]);
-                } else {
-                    if (union.size() == 0 || union.getLast() != b[j]) {
-                        union.add(b[j++]);
-                    }
-                }
-
+            if (arr1[i] <= arr2[j]) // Case 1 and 2
+            {
+                if (Union.size() == 0 || Union.get(Union.size() - 1) != arr1[i])
+                    Union.add(arr1[i]);
+                i++;
+            } else // case 3
+            {
+                if (Union.size() == 0 || Union.get(Union.size() - 1) != arr2[j])
+                    Union.add(arr2[j]);
+                j++;
             }
         }
-        while (i < n) {
-            if (union.size() == 0 || union.getLast() != a[i]) {
-                union.add(a[i++]);
-            }
-
+        while (i < n) // IF any element left in arr1
+        {
+            if (Union.get(Union.size() - 1) != arr1[i])
+                Union.add(arr1[i]);
+            i++;
         }
-        while (j < m) {
-            if (union.size() == 0 || union.getLast() != b[j]) {
-                union.add(b[j++]);
-            }
-
+        while (j < m) // If any elements left in arr2
+        {
+            if (Union.get(Union.size() - 1) != arr2[j])
+                Union.add(arr2[j]);
+            j++;
         }
-
-        return union;
+        return Union;
     }
 
     public static void main(String[] args) {

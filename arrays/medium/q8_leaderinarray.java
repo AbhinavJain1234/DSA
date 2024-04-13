@@ -2,7 +2,7 @@ package medium;
 
 import java.util.ArrayList;
 
-public class leaderinarray {
+public class q8_leaderinarray {
     public static ArrayList<Integer> solBrute(int a[]) {
         ArrayList<Integer> list = new ArrayList<>();
         for (int i = 0; i < a.length; i++) {

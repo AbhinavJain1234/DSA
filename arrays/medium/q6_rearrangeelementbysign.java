@@ -1,9 +1,8 @@
 package medium;
 
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
-public class rearrangeelementbysign {
+public class q6_rearrangeelementbysign {
     public static void solbrute(int a[]) {
         int pos[] = new int[a.length / 2];
         int posi = 0;

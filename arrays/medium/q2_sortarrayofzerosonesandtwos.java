@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 import sorting.mergesort;
 
-public class sortarrayofzerosonesandtwos {
+public class q2_sortarrayofzerosonesandtwos {
 
     // brute
     public static void solBrute(int a[]) {

@@ -3,7 +3,7 @@ package medium;
 import java.util.Arrays;
 import java.util.HashMap;
 
-public class twosum {
+public class q1_twosum {
 
     // brute variety 1
     static boolean twoSumBrute(int a[], int sum) {
@@ -31,13 +31,12 @@ public class twosum {
     // return ans;
     // }
 
-    // better variety 1
-    // static int[] twoSumBetter(int a[], int sum) {
-    // int index[];
+    // // better variety 1
+
+    // static boolean twoSumBetter(int a[], int sum) {
     // HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
     // for (int i = 0; i < a.length; i++) {
     // if (map.containsValue(sum - a[i])) {
-    // // index={i,map.get}
     // return true;
     // } else
     // map.put(a[i], i);
@@ -65,6 +64,7 @@ public class twosum {
 
     // optimal variety 1
     public static boolean twoSumOptimal(int a[], int sum) {
+        Arrays.sort(a);
         int i = 0, j = a.length - 1;
         while (i < j) {
             int temp = a[i] + a[j];

@@ -2,7 +2,7 @@ package medium;
 
 import java.util.Arrays;
 
-public class nextpermutation {
+public class q7_nextpermutation {
     public static void solOptimal(int a[]) {
         int index = -1;
         int n = a.length;

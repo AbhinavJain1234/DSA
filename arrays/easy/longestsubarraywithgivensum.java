@@ -13,10 +13,10 @@ public class longestsubarraywithgivensum {
                 sum1 += a[j];
 
                 // default way to find sum
-                int sum2 = 0;
-                for (int k = 0; k < a.length; k++) {
-                    sum2 += a[k];
-                }
+                // int sum2 = 0;
+                // for (int k = 0; k < a.length; k++) {
+                // sum2 += a[k];
+                // }
                 if (sum1 == sum)
                     maxLength = Math.max(maxLength, j - i + 1);
             }

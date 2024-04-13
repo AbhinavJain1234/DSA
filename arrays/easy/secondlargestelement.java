@@ -1,8 +1,10 @@
 package easy;
 
+import java.util.*;
+
 public class secondlargestelement {
     static int secondLargestBrute(int a[]) {
-        quicksort.quickSort(a, 0, a.length - 1);
+        Arrays.sort(a);
         int n = a.length - 2;
         while (a[a.length - 1] == a[n] && n > 0)
             n--;

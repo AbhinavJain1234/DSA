@@ -2,7 +2,7 @@ package medium;
 
 import java.util.Arrays;
 
-public class setarrayzero {
+public class q10_setarrayzero {
     public static void solBrute(int a[][]) {
         int n = a.length, m = a[0].length;
         for (int i = 0; i < n; i++) {

@@ -1,6 +1,6 @@
 package medium;
 
-public class stockbuysell {
+public class q5_stockbuysell {
     public static void sol(int a[]) {
         int mini = a[0];
         int profit = 0;

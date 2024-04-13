@@ -1,9 +1,5 @@
 package easy;
 
-import java.util.HashMap;
-
-import javax.sound.midi.Soundbank;
-
 public class missingnumber {
 
     // brute

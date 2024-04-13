@@ -5,7 +5,7 @@ import java.util.HashSet;
 import easy.linearsearch;
 import sorting.mergesort;
 
-public class longestconsecutivesequence {
+public class q9_longestconsecutivesequence {
     public static int solBrute(int a[]) {
         int longest = 1;
         for (int i = 0; i < a.length; i++) {
@@ -23,7 +23,6 @@ public class longestconsecutivesequence {
 
     public static int solBetter(int a[]) {
         mergesort.mergeSort(a, 0, a.length - 1);
-        ;
         int lastSmallest = Integer.MIN_VALUE;
         int longest = 0;
         int count = 0;

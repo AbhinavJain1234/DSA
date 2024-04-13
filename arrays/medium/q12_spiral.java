@@ -3,7 +3,7 @@ package medium;
 import java.util.ArrayList;
 import java.util.List;
 
-public class spiral {
+public class q12_spiral {
     public static List<Integer> solOptimal(int mat[][]) {
         List<Integer> ans = new ArrayList<>();
 
