@@ -62,7 +62,7 @@ public class q10_setarrayzero {
 
     public static void solOptimal(int a[][]) {
         int n = a.length, m = a[0].length;
-        int col = 0;
+        int col = 1;
         for (int i = 0; i < n; i++) {
             for (int j = 0; j < m; j++) {
                 if (a[i][j] == 0) {
@@ -103,6 +103,8 @@ public class q10_setarrayzero {
         solBetter(b);
         int a[][] = { { 1, 1, 1, 1 }, { 1, 0, 1, 1 }, { 1, 1, 0, 1 }, { 0, 1, 1, 1 } };
         solOptimal(a);
+        int d[][] = { { 1, 1, 1, }, { 1, 0, 1, }, { 1, 1, 1 } };
+        solOptimal(d);
     }
 
 }
