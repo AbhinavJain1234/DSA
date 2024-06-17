@@ -1,0 +1,31 @@
+package linked_list.learn_oned;
+
+import linked_list.Node;
+
+public class Q5_searchelement {
+    public static Node arrayToList(int arr[]) {
+        Node head = new Node(arr[0]);
+        Node temp = head;
+        for (int i = 1; i < arr.length; i++) {
+            temp.next = new Node(arr[i]);
+            temp = temp.next;
+        }
+        return head;
+    }
+
+    public static void search(Node head, int n) {
+        Node temp = head;
+        while (temp != null) {
+            temp = temp.next;
+            if (temp.data == n) {
+                System.out.println("Found");
+                return;
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        Node head = arrayToList(new int[] { 1, 2, 3, 4, 5 });
+        search(head, 3);
+    }
+}

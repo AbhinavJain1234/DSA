@@ -72,7 +72,6 @@ public class Q14_kthelementin2sortedarray {
         if (n1 > n2)
             return kthmissingnumberOptimal(b, a, k);
 
-        int n = n1 + n2;
         int left = k;
         int low = Math.max(0, k - n2), high = Math.min(k, n1);
         while (low <= high) {
