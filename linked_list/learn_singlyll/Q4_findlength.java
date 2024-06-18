@@ -1,4 +1,4 @@
-package linked_list.learn_oned;
+package linked_list.learn_singlyll;
 
 import linked_list.Node;
 
