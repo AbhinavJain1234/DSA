@@ -1,6 +1,5 @@
 package linked_list.learn_doublyll;
 
-import linked_list.Node;
 import linked_list.NodeD;
 
 public class doublyll {
