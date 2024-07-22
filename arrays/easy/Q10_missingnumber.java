@@ -1,6 +1,6 @@
 package easy;
 
-public class missingnumber {
+public class Q10_missingnumber {
 
     // brute
     static int missingNumberBrute(int a[], int n) {

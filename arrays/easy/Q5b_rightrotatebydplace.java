@@ -2,7 +2,7 @@ package easy;
 
 import java.util.Arrays;
 
-public class rightrotatebydplace {
+public class Q5b_rightrotatebydplace {
     static void rightRotateByDPlaceBrute(int a[], int d) {
         int n = a.length;
         d = d % n;

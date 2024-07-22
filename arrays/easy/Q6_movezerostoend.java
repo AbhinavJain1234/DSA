@@ -2,7 +2,7 @@ package easy;
 
 import java.util.Arrays;
 
-public class movezerostoend {
+public class Q6_movezerostoend {
 
     static void moveZerosToEndBrute(int a[]) {
         int n = a.length;
@@ -23,11 +23,12 @@ public class movezerostoend {
         int n = a.length;
         int j = -1;
         // locating first zero
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < n; i++) {
             if (a[i] == 0) {
                 j = i;
                 break;
             }
+        }
         // return if whole array is non zero
         if (j == -1) {
             System.out.println("No zeros");

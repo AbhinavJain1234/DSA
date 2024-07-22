@@ -1,6 +1,6 @@
 package easy;
 
-public class smallestelement {
+public class Q1b_smallestelement {
     static int smallestOptimized(int a[]) {
         int smallest = a[0];
         for (int i = 1; i < a.length; i++) {

@@ -34,8 +34,8 @@ public class Q4_delnthnodefromend {
         return head;
     }
 
-    
     // optimal
+    @SuppressWarnings("unused")
     public Node removeNthFromEnd(Node head, int n) {
         if (head == null)
             return head;

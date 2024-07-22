@@ -3,7 +3,7 @@ package easy;
 import java.util.HashMap;
 import java.util.Map;
 
-public class numberthatappearsonce {
+public class Q12_numberthatappearsonce {
 
     static int numberThatAppearsOnceBrute(int a[]) {
         for (int i = 0; i < a.length; i++) {

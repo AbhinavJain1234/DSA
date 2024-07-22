@@ -1,6 +1,6 @@
 package easy;
 
-public class checkSorted {
+public class Q1a_checkSorted {
     // brute,better,bestdd
     static boolean checkIfSorted(int a[]) {
         for (int i = 1; i < a.length; i++) {

@@ -2,7 +2,7 @@ package easy;
 
 import java.util.HashMap;
 
-public class longestsubarraywithgivensum {
+public class Q13_longestsubarraywithgivensum {
     static void solBrute(int a[], int sum) {
         int maxLength = 0;
         for (int i = 0; i < a.length; i++) {

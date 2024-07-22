@@ -3,6 +3,7 @@ package medium;
 import java.util.Arrays;
 
 public class q7_nextpermutation {
+    // only optimal
     public static void solOptimal(int a[]) {
         int index = -1;
         int n = a.length;

@@ -1,6 +1,6 @@
 package easy;
 
-public class linearsearch {
+public class Q7_linearsearch {
 
     public static int linearSearch(int a[], int search) {
         for (int i = 0; i < a.length; i++) {

@@ -2,7 +2,7 @@ package easy;
 
 import java.util.*;
 
-public class secondlargestelement {
+public class Q2a_secondlargestelement {
     static int secondLargestBrute(int a[]) {
         Arrays.sort(a);
         int n = a.length - 2;

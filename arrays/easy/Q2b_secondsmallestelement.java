@@ -1,6 +1,6 @@
 package easy;
 
-public class secondsmallestelement {
+public class Q2b_secondsmallestelement {
     static int secondSmallestBrute(int a[]) {
         quicksort.quickSort(a, 0, a.length - 1);
         int n = 1;

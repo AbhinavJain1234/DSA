@@ -1,6 +1,6 @@
 package easy;
 
-public class largestelement {
+public class Q1_largestelement {
     static int largestOptimized(int a[]) {
         int largest = a[0];
         for (int i = 1; i < a.length; i++) {

@@ -1,9 +1,9 @@
 package medium;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
-import easy.linearsearch;
-import sorting.mergesort;
+import easy.Q7_linearsearch;
 
 public class q9_longestconsecutivesequence {
     public static int solBrute(int a[]) {
@@ -11,7 +11,7 @@ public class q9_longestconsecutivesequence {
         for (int i = 0; i < a.length; i++) {
             int x = a[i];
             int count = 1;
-            while (linearsearch.linearSearchB(a, x + 1) == true) {
+            while (Q7_linearsearch.linearSearchB(a, x + 1) == true) {
                 x++;
                 count++;
             }
@@ -22,7 +22,7 @@ public class q9_longestconsecutivesequence {
     }
 
     public static int solBetter(int a[]) {
-        mergesort.mergeSort(a, 0, a.length - 1);
+        Arrays.sort(a);
         int lastSmallest = Integer.MIN_VALUE;
         int longest = 0;
         int count = 0;

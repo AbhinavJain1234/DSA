@@ -2,7 +2,7 @@ package easy;
 
 import java.util.ArrayList;
 
-public class intersectionofsorted {
+public class Q9_intersectionofsorted {
 
     // brute force
     static ArrayList<Integer> intersectionBrute(int a[], int b[]) {

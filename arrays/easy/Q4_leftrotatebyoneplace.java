@@ -2,7 +2,7 @@ package easy;
 
 import java.util.Arrays;
 
-public class leftrotatebyoneplace {
+public class Q4_leftrotatebyoneplace {
     static void leftRotateByOnePlace(int a[]) {
         int temp = a[0];
         for (int i = 1; i < a.length; i++)

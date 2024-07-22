@@ -1,6 +1,6 @@
 package easy;
 
-public class maximumconsecutiveone {
+public class Q11_maximumconsecutiveone {
     static int maximumConsecutiveOne(int a[]) {
         int count = 0;
         int max = 0;

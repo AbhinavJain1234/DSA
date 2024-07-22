@@ -2,7 +2,7 @@ package easy;
 
 import java.util.*;
 
-public class removeduplicateinsorted {
+public class Q3_removeduplicateinsorted {
 
     // for unsorted array we can create a temp array and then change og array and
     // return index

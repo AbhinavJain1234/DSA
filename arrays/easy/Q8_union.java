@@ -2,7 +2,7 @@ package easy;
 
 import java.util.*;
 
-public class union {
+public class Q8_union {
 
     // brute
     static int[] unionBrute(int a[], int b[]) {

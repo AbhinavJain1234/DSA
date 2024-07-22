@@ -13,7 +13,6 @@ public class gfg3_maxcircularsubarraysum {
                 maxSum = Math.max(maxSum, currentSum);
             }
         }
-
         return maxSum;
     }
 
@@ -45,8 +44,7 @@ public class gfg3_maxcircularsubarraysum {
 
     public static void main(String[] args) {
         int[] arr = { 8, -4, 3, -5, 4 };
-        int maxSum = maxCircularSubarraySumBrute(arr);
-        System.out.println("Maximum circular subarray sum: " + maxSum);
+        System.out.println("Maximum circular subarray sum: " + maxCircularSubarraySumBrute(arr));
         System.out.println("Maximum circular subarray sum: " + maxCircularSubarraySumOptimal(arr));
     }
 }
