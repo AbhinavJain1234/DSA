@@ -1,18 +1,19 @@
-package linked_list;
+package binary_trees;
 
 public class Node {
     public int data;
-    public Node next;
     public Node left;
     public Node right;
 
     public Node(int data) {
         this.data = data;
-        this.next = null;
+        this.left = null;
+        this.right = null;
     }
 
-    public Node(int data, Node next) {
+    public Node(int data, Node left, Node right) {
         this.data = data;
-        this.next = next;
+        this.left = left;
+        this.right = right;
     }
 }
