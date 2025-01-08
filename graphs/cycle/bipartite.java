@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Queue;
 
 public class bipartite {
-    public boolean isBipartiteBFD(int V, List<Integer>[] adj) {
+    public boolean isBipartiteBFS(int V, List<Integer>[] adj) {
         int color[]=new int[V];
         Queue<Integer> queue=new LinkedList<>();
         for(int i=0;i<V;i++){

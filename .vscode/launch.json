@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "yesorno",
+      "request": "launch",
+      "mainClass": "yesorno",
+      "projectName": "DSA_d6d034b3"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/abhinavjain/Documents/DSA",
+      "program": "/Users/abhinavjain/Documents/DSA/build/Debug/outDebug"
+    }
+  ]
+}
