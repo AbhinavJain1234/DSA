@@ -1,4 +1,4 @@
-package easy;
+package arrays.easy;
 
 public class Q1a_checkSorted {
     // brute,better,bestdd

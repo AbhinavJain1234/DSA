@@ -1,4 +1,5 @@
-package easy;
+package arrays.easy;
+
 
 public class Q1_largestelement {
     static int largestOptimized(int a[]) {

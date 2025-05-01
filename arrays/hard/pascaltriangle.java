@@ -1,4 +1,4 @@
-package hard;
+package arrays.hard;
 
 import java.util.ArrayList;
 import java.util.List;

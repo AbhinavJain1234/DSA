@@ -1,4 +1,4 @@
-package medium;
+package arrays.medium;
 
 public class gfg1_trappingrainwater {
     public static int water(int arr[]) {

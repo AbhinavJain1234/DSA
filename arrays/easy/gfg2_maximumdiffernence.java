@@ -1,4 +1,4 @@
-package easy;
+package arrays.easy;
 
 public class gfg2_maximumdiffernence {
     public static int findMaximumDifferenceBrute(int[] a) {

@@ -1,9 +1,10 @@
-package medium;
+package arrays.medium;
+
 
 import java.util.Arrays;
 import java.util.HashSet;
 
-import easy.Q7_linearsearch;
+import arrays.easy.Q7_linearsearch;
 
 public class q9_longestconsecutivesequence {
     public static int solBrute(int a[]) {

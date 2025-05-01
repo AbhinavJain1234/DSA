@@ -1,4 +1,4 @@
-package easy;
+package arrays.easy;
 
 public class Q7_linearsearch {
 

@@ -1,4 +1,4 @@
-package easy;
+package arrays.easy;
 
 public class Q11_maximumconsecutiveone {
     static int maximumConsecutiveOne(int a[]) {

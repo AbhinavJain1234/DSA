@@ -1,20 +1,47 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "java",
-      "name": "yesorno",
-      "request": "launch",
-      "mainClass": "yesorno",
-      "projectName": "DSA_d6d034b3"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "lldb",
-      "request": "launch",
-      "args": [],
-      "cwd": "/Users/abhinavjain/Documents/DSA",
-      "program": "/Users/abhinavjain/Documents/DSA/build/Debug/outDebug"
-    }
-  ]
-}
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "gfg1_trappingrainwater",
+            "request": "launch",
+            "mainClass": "arrays.medium.gfg1_trappingrainwater",
+            "projectName": "DSA_4fbc7d6"
+        },
+        {
+            "type": "java",
+            "name": "EqualPartition",
+            "request": "launch",
+            "mainClass": "dp.aditya_verma.Zero_One_Knapsack.EqualPartition",
+            "projectName": "DSA_4fbc7d6"
+        },
+        {
+            "type": "java",
+            "name": "Solution",
+            "request": "launch",
+            "mainClass": "dp.aditya_verma.Zero_One_Knapsack.Solution",
+            "projectName": "DSA_4fbc7d6"
+        },
+        {
+            "type": "java",
+            "name": "gfg_reversearray",
+            "request": "launch",
+            "mainClass": "arrays.easy.gfg_reversearray",
+            "projectName": "DSA_4fbc7d6"
+        },
+        {
+            "type": "java",
+            "name": "CountSubset",
+            "request": "launch",
+            "mainClass": "dp.aditya_verma.Zero_One_Knapsack.CountSubset",
+            "projectName": "DSA_4fbc7d6"
+        },
+        {
+            "type": "java",
+            "name": "Run Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+  }
+  

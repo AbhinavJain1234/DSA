@@ -1,4 +1,5 @@
-package medium;
+package arrays.medium;
+
 
 class q4_maxsubarraysum {
 

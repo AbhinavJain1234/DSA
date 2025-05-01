@@ -1,4 +1,4 @@
-package easy;
+package arrays.easy;
 
 public class Q2b_secondsmallestelement {
     static int secondSmallestBrute(int a[]) {

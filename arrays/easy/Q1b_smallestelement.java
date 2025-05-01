@@ -1,4 +1,5 @@
-package easy;
+package arrays.easy;
+
 
 public class Q1b_smallestelement {
     static int smallestOptimized(int a[]) {

@@ -1,4 +1,4 @@
-package medium;
+package arrays.medium;
 
 public class gfg2_maxlenevenoddsubarray {
     public static int maxEvenOdd(int arr[], int n) {

@@ -1,4 +1,5 @@
-package medium;
+package arrays.medium;
+
 
 public class q5_stockbuysell {
     public static void sol(int a[]) {

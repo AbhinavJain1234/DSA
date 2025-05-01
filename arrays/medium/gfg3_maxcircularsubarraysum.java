@@ -1,4 +1,5 @@
-package medium;
+package arrays.medium;
+
 
 public class gfg3_maxcircularsubarraysum {
     public static int maxCircularSubarraySumBrute(int[] arr) {

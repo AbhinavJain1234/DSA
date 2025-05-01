@@ -1,5 +1,4 @@
-package easy;
-
+package arrays.easy;
 import java.util.Arrays;
 
 public class Q4_leftrotatebyoneplace {

@@ -1,4 +1,5 @@
-package medium;
+package arrays.medium;
+
 
 public class gfg4_minimumgroupflip {
 

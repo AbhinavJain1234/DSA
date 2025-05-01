@@ -1,4 +1,4 @@
-package easy;
+package arrays.easy;
 
 /**
  * Given an array arr[] of size N and two elements x and y,
