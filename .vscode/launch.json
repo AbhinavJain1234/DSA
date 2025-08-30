@@ -3,6 +3,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SubsetWithGivenDifference",
+            "request": "launch",
+            "mainClass": "dp.aditya_verma.Zero_One_Knapsack.SubsetWithGivenDifference",
+            "projectName": "DSA_4fbc7d6"
+        },
+        {
+            "type": "java",
             "name": "gfg1_trappingrainwater",
             "request": "launch",
             "mainClass": "arrays.medium.gfg1_trappingrainwater",
